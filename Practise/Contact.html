@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>Mola Wa Godimo-Construction</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>  
+<body>
+    <section class="sub-header">
+<nav>
+    <a href class="index.html"><img src="Images/Image. 12.jpg" style="width:100px;height:100px;"></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i> 
+       <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+        <li><a href="Product.html">PRODUCTS</a></li>
+        <li><a href="Past work.html">PAST WORK</a></li>
+        <li><a href="Contact.html">CONTACT</a></li>
+       </ul>    
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>Contact Us</h1>
+
+</section>
+
+
+<!--------- Contact us -------->
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!4v1686093105384!6m8!1m7!1srUVDSZ0uB3NkkOQOADvC_g!2m2!1d-27.47445274518342!2d23.43815141485943!3f243.27103375316727!4f-10.190130329307806!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+           <div>
+            <i class="fa fa-home"></i>
+            <span>
+               <h5>54 Marietta Cres Kuruman  </h5> 
+               <p> South Africa, Northern Cape</p>
+            </span>
+           </div> 
+        <div>
+            <i class="fa fa-phone"></i>
+            <span>
+               <h5>+27 799022791</h5> 
+               <p> Monday to Saturday, 8am to 5pm
+               </p>
+            </span>
+           </div> 
+           <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+               <h5>enkutlwang@yahoo.com</h5> 
+               <p>Email us your query</p>
+            </span>
+           </div> 
+        </div>
+        <div class="contact-col">
+
+<form action="Form-handler.php" method="post">
+    <input type="text" name="name" placeholder="Enter your name" required>
+    <input type="email" name="email" placeholder="Enter email address" required>
+    <input type="text" name="subject"  placeholder="Enter Product" required>
+    <textarea  rows="8"  name="message"  placeholder="Message" required></textarea>
+    <button type="submit" class="hero-btn red-btn"> Send Message</button>
+</form>
+
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+<!--------Footer ------->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>Some text about who we are and what we do.Resize the browser window to see that this page is responsive by the way.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Kaone Nkutlwang</p>
+</section>
+
+
+
+
+ <!-------------JavaScript for Toogle Menu------->   
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+
+    }
+
+</script>
+
+
+</body>  
+</html> 
